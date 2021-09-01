@@ -9,7 +9,7 @@ const App: React.FunctionComponent = () => {
       flexDir="column"
       justify="center"
       align="center"
-      backgroundColor="pink.500"
+      backgroundColor="blue.800"
     >
       <Heading color="white">Let's get building...</Heading>
     </Flex>
