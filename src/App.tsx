@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 
 const App: React.FunctionComponent = () => {
   return (
@@ -9,11 +9,20 @@ const App: React.FunctionComponent = () => {
       flexDir="column"
       justify="center"
       align="center"
-      backgroundColor="blue.700"
+      backgroundColor="blue.900"
     >
-      <Heading fontSize="4xl" color="white">
-        Let's get building...
+
+      <Flex
+      flexDir="column"
+      w="250"
+      >
+      <Heading fontSize="2xl" color="white" pb="4">
+        API to fetch content
       </Heading>
+      <Text fontSize="lg" color="gray.500">Lorem ipsum dolor sit amet,
+       consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.</Text>
+      </Flex>
     </Flex>
   );
 };
