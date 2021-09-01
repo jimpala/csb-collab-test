@@ -11,17 +11,14 @@ const App: React.FunctionComponent = () => {
       align="center"
       backgroundColor="blue.900"
     >
-
-      <Flex
-      flexDir="column"
-      w="250"
-      >
-      <Heading fontSize="2xl" color="white" pb="4">
-        API to fetch content
-      </Heading>
-      <Text fontSize="lg" color="gray.500">Lorem ipsum dolor sit amet,
-       consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.</Text>
+      <Flex flexDir="column" w="sm">
+        <Heading fontSize="2xl" color="white" pb="0.25rem">
+          API to fetch content
+        </Heading>
+        <Text fontSize="lg" color="gray.500">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </Text>
       </Flex>
     </Flex>
   );
