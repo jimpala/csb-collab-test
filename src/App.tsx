@@ -11,7 +11,7 @@ const App: React.FunctionComponent = () => {
       align="center"
       backgroundColor="blue.700"
     >
-      <Heading fontSize="5xl" color="white">
+      <Heading fontSize="4xl" color="white">
         Let's get building...
       </Heading>
     </Flex>
